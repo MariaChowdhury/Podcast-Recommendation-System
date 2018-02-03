@@ -12,3 +12,7 @@ output - words.txt
 2. word_keys.py
 input - episode_data.json,words.txt
 output - words_keys.txt
+
+3. history.py
+input - history.json
+output - user_episodes.txt
