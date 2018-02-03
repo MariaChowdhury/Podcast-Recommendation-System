@@ -6,13 +6,13 @@ This script retrieves the episode url corresponding a keyword
 from checkWordValMatch import checkMatch
 
 import os           
-word_episode_file=os.getcwd()+"/"+"words_keys.txt"
+word_episode_file=os.getcwd()+"/private/"+"words_keys.txt"
 if os.path.exists(word_episode_file):
     os.remove(word_episode_file)
 
 """loading dictionary """
 
-dictionary_file=os.getcwd()+"/words.txt"
+dictionary_file=os.getcwd()+"/private/"+"words.txt"
 words=[]
 with open(dictionary_file, mode="r",encoding="utf-8") as my_file:
     for line in my_file:
@@ -21,7 +21,7 @@ with open(dictionary_file, mode="r",encoding="utf-8") as my_file:
 #words.sort()    
 """reading data from .json files"""
 import json
-data_file=os.getcwd()+"/"+"episode_data.json"
+data_file=os.getcwd()+"/private/"+"episode_data.json"
 json_file=open(data_file,"r")
 strings = json.load(json_file)
 json_file.close()

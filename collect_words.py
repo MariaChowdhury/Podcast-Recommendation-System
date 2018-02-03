@@ -7,8 +7,8 @@ This script creates the collection of available words in the input files
 import os
 """ Location of json file and output file """
 
-episode_data_file=os.getcwd()+"/"+"episode_data.json"
-words_file=os.getcwd()+"/"+"words.txt"
+episode_data_file=os.getcwd()+"/private/"+"episode_data.json"
+words_file=os.getcwd()+"/private/"+"words.txt"
 
 """reading from .json files"""
 import json
