@@ -41,6 +41,9 @@ def collect_words(episode_data_file,words_file):
     for word in words:
         words_file.write(word+ "\n")
 
-episode_data_file="/Users/mariachowdhury/Documents/Podcast-Recommendation-System/private/episode_data.json"
-words_file="/Users/mariachowdhury/Documents/Podcast-Recommendation-System/private/words.txt"
-collect_words(episode_data_file,words_file)
+# =============================================================================
+# episode_data_file="/Users/mariachowdhury/Documents/Podcast-Recommendation-System/private/episode_data.json"
+# words_file="/Users/mariachowdhury/Documents/Podcast-Recommendation-System/private/words.txt"
+# collect_words(episode_data_file,words_file)
+# 
+# =============================================================================
