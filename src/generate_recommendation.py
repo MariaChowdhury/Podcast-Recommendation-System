@@ -32,7 +32,7 @@ def generate_recommendation(user,watching_episode,user_social_recommendation_fil
                 
     """removing stopwords and stemming the words of watching_episode"""
     my_stop_words=['in','-','be','how','so','that','can','will','vs','en','other'
-                   ,'have','via','do','the','did','about','what']
+                   ,'have','via','do','the','did','about','what','on']
     words=set()
     import nltk
     nltk.download('stopwords')
