@@ -1,6 +1,8 @@
 # Podcast-Recommendation-System
-Python libraries udes:
-pandas,numpy,nltk
+Python libraries used:
+- pandas,
+- numpy,
+- nltk
 
 
 input and output files are located at ./private/
